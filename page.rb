@@ -3,15 +3,15 @@ def page_layout
   ----------------------------------
   LE WAGON 🚌            Login Home              　 
   ----------------------------------
-                                  
-   #{yield}                        
-                                  
-                    
-   
 
-                                  
+  #{yield}                        
+
+
+
+
+
   ----------------------------------
-   Made with 😘 by Yann       　2021　
+  Made with 😘 by Yann        　2021　
   ----------------------------------
   "
 end
@@ -27,6 +27,7 @@ def about_page
     "My name is Yann. \n   I am from France and I love VR."
   end
 end
+
 
 puts "Index page:"
 puts index_page
